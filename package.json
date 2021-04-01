@@ -7,8 +7,11 @@
     "build": "webpack",
     "start": "npx http-server dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Service Worker",
+    "Workbox"
+  ],
+  "author": "Mauricio Lemus",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",

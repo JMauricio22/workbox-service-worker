@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+#app {
+  padding: 20px;
+}
+.card {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+.card__container-image {
+  width: 100%;
+  height: 300px;
+}
+.card__container-image > img {
+  width: 100%;
+  height: 100%;
+}
+.card__description > h2 {
+  text-align: center;
+  padding: 10px 0;
+}
